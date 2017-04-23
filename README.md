@@ -20,4 +20,4 @@ Language is SQF. More information here - https://community.bistudio.com/wiki/SQF
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+LGPL 2.1
