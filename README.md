@@ -18,7 +18,7 @@ I will be honest. Im not expert in terms of mission creation, especially for a r
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+Pack to PBO and put in your missions folder or download from my workshop - http://steamcommunity.com/id/Godlike_RU
 
 ## Langauge
 
