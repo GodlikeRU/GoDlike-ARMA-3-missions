@@ -1,0 +1,11 @@
+//////////////////////////////////////////
+ //  ARMA 3 SQF FILE //
+ //  AUTHOR: GODLIKE //
+ // PURPOSE: BOOM BABY //
+//////////////////////////////////////////
+
+if(!BOOM) then
+{
+  remoteExec["COB_fnc_boomServer", 2];
+  closeDialog 1;
+};

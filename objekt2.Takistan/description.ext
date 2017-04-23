@@ -1,0 +1,59 @@
+class Header
+{
+  gameType = Coop;
+  minPlayers = 1;
+  maxPlayers = 11;
+};
+
+
+
+enableDebugConsole = 1;
+respawn = 5;
+respawndelay = 10;
+disabledAI = 0;
+
+#include "DEFUSE\common.hpp"
+#include "DEFUSE\explosivePad.hpp"
+#include "DEFUSE\instructions.hpp"
+
+class CfgSounds
+{
+	sounds[] = {};
+	#include "DEFUSE\sounds\cfgSounds.hpp"
+};
+
+class CfgDebriefing
+{
+  class EndVictory
+  {
+  	title = "Mission succesfull";
+    subtitle = "Finally Russia can strike with full power!";
+  	pictureBackground = "";
+  	picture = "";
+  	pictureColor[] = {0.0,0.3,0.6,1};
+  };
+
+  class EndFailBomberEscaped
+  {
+    title = "MISSION FAILED";
+    subtitle = "Bomber escaped Takistan!";
+    pictureBackground = "";
+    picture = "KIA";
+    pictureColor[] = {0.6,0.1,0.2,1};
+  };
+
+  class EndFailBombExploded
+  {
+    title = "MISSION FAILED";
+    subtitle = "Bomb exploded killing You and polluted nearby towns!";
+  	pictureBackground = "";
+  	picture = "KIA";
+  	pictureColor[] = {0.6,0.1,0.2,1};
+  };
+
+};
+
+class CfgFunctions
+{
+    #include "DEFUSE\functions\cfgFunctions.hpp"
+};
