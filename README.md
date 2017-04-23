@@ -2,6 +2,10 @@
 
 This repository contains GoDlike's ARMA 3 missions
 
+## Titles
+OperationTAIFUN.Takistan - Operation TAIFUN
+objekt2.Takistan			   - Russian Roulette
+
 ## How to compile
 
 Just pack to PBO using Eden Editor or ARMA 3 Tools
