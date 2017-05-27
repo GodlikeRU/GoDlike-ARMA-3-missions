@@ -14,6 +14,14 @@ objekt3.Takistan			   - Breakthrough
 
 Just pack to PBO using Eden Editor or ARMA 3 Tools
 
+## How to put on dedicated server?
+
+1. Download from workshop to your local pc or dedi
+2. Change extension from bin to pbo
+3. Name it like that: missionName.Takistan.pbo
+4. Put it in your mpmissions folder
+5. Play
+
 ## Why open-sourcing?
 
 I will be honest. Im not expert in terms of mission creation, especially for a really complicated game like ARMA 3. I hope that if You see some bugs You'll help in developing better missions for everyone in future. 
