@@ -1,0 +1,28 @@
+class Header
+{
+  gameType = Coop;
+  minPlayers = 1;
+  maxPlayers = 19;
+};
+
+
+
+enableDebugConsole = 1;
+respawn = 5;
+respawndelay = 10;
+disabledAI = 0;
+
+
+class CfgDebriefing
+{
+  class EndVictory
+  {
+  	title = "Mission succesfull";
+    subtitle = "Mother Russia is proud of You!";
+  	pictureBackground = "";
+  	picture = "";
+  	pictureColor[] = {0.0,0.3,0.6,1};
+  };
+
+
+};

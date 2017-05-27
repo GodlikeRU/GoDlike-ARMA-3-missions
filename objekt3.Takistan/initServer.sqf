@@ -1,0 +1,7 @@
+//////////////////////////////////////////
+ //  ARMA 3 SQF FILE //
+ //  AUTHOR: GODLIKE //
+ // PURPOSE: Server only code before game start //
+//////////////////////////////////////////
+
+execVM "initServerInGame.sqf";
